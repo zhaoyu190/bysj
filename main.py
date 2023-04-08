@@ -8,7 +8,7 @@ class App(QWidget):
     def __init__(self):
         super().__init__()
         self.title = 'PyQt5 video'
-        self.left = 100
+        self.left = 50
         self.top = 100
         self.width = 640
         self.height = 480
