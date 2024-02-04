@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   builds:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps: 
     - run:
         echo $PATH
