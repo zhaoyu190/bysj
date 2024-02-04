@@ -1,0 +1,12 @@
+name: ci
+
+on: [push]
+
+jobs:
+  builds:
+    runs-on:unbuntu-latest
+    steps:
+    - run:
+      echo hello
+      node -v
+    
