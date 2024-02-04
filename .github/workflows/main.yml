@@ -4,9 +4,8 @@ on: [push]
 
 jobs:
   builds:
-    runs-on:unbuntu-latest
-    steps:
+    runs-on: unbuntu-latest
+    steps: 
     - run:
-      echo hello
       node -v
     
